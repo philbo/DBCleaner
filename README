@@ -1,0 +1,7 @@
+Using the two scripts you can clear out any data from an exisiting SQL Server database.
+
+1. Run 'DropAndRecreateForeignKeys.sql' to generate statements to drop and recreate all foreign keys.
+2. Run 'GetTablesWithData.sql' to generate statements to delete data from existing tables.
+3. Run the drop foreign key statements.
+4. Run the delete statements.
+5. Run the recreate foreign key statements.
